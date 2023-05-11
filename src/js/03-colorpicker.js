@@ -4,6 +4,7 @@ import colors from './colors.json';
 import '../css/common.css';
 import '../css/colorpicker.css';
 
+// console.log("colors:", colors)
 const paletteContainer = document.querySelector('.js-palette');
 const cardsMarkup = createColorCardsMarkup(colors);
 
