@@ -50,10 +50,10 @@ console.log('localStorage =>', localStorage);
 localStorage.setItem('my-data-1', 'qwe');
 
 // Сохраняем значение в "localStorage" с помошью метода "JSON.stringify([объект])".
-localStorage.setItem('my-data', JSON.stringify({ name: 'Mango', age: 2 }));
+localStorage.setItem('my-data-2', JSON.stringify({ name: 'Mango', age: 2 }));
 
 // Создаем переменную "savedData" и задаем ей в качестве значения текстовый литерал, который хранится в "localStorage" под определенным ключом (key).
-const savedData = localStorage.getItem('my-data');
+const savedData = localStorage.getItem('my-data-2');
 console.log('savedData =>', savedData);
 //! Метод "getItem()" - не производит парсинг данных, он возвращает их в том виде в котором они есть (в виде строки).
 
