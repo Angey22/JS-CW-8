@@ -1,0 +1,56 @@
+<!-- Видео - 0:52:00...0:00:00 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Мастерская: фильтры</title>
+  </head>
+  <body>
+    <p>
+      <a href="index.html">На главную</a>
+      <em>/</em>
+      <a href="../src/js/filters.txt" target="_blank"
+        >Исходный код - "filters.txt"</a
+      >
+    </p>
+    <hr />
+
+    <form class="filter-form">
+      <label>
+        Цвет
+        <select name="color">
+          <option value="red">Красный</option>
+          <option value="green">Зеленый</option>
+          <option value="blue">Синий</option>
+        </select>
+      </label>
+
+      <label>
+        Размер
+        <select name="size">
+          <option value="sm">Маленький</option>
+          <option value="md">Средний</option>
+          <option value="xl">Большой</option>
+        </select>
+      </label>
+
+      <label>
+        Материал
+        <select name="material">
+          <option value="steel">Сталь</option>
+          <option value="wood">Дерево</option>
+          <option value="plastic">Пластик</option>
+        </select>
+      </label>
+
+      <button type="submit">Применить</button>
+      <button type="reset">Сбросить</button>
+    </form>
+
+    <script src="./js/filters.js"></script>
+  </body>
+</html>
